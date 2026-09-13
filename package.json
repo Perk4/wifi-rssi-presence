@@ -1,0 +1,19 @@
+{
+  "name": "wifi-rssi-presence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny Wi-Fi RSSI presence: sample frames, detect motion, hysteresis PRESENCE/CLEAR",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "node --experimental-strip-types src/demo.ts",
+    "test": "node --experimental-strip-types --test src/presence.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
